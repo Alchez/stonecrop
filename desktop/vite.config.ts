@@ -15,7 +15,7 @@ export default defineConfig({
 		minify: false,
 		lib: {
 			entry: resolve(projectRootDir, 'src/index.js'),
-			name: '@agritheory/aform',
+			name: '@alchez/aform',
 		},
 		rollupOptions: {
 			external: ['vue'],

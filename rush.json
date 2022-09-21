@@ -11,7 +11,7 @@
 	},
 	"gitPolicy": {},
 	"repository": {
-		"url": "https://github.com/agritheory/stonecrop",
+		"url": "https://github.com/alchez/stonecrop",
 		"defaultBranch": "development",
 		"defaultRemote": "origin"
 	},
@@ -27,57 +27,57 @@
 	"telemetryEnabled": false,
 	"projects": [
 		{
-			"packageName": "@agritheory/stonecrop",
+			"packageName": "@alchez/stonecrop",
 			"projectFolder": "stonecrop",
 			"reviewCategory": "prototype",
 			"shouldPublish": false
 		},
 		{
-			"packageName": "@agritheory/atable",
+			"packageName": "@alchez/atable",
 			"projectFolder": "atable",
 			"reviewCategory": "prototype",
 			// to avoid circular dependency problems
-			"decoupledLocalDependencies": ["@agritheory/aform"],
+			"decoupledLocalDependencies": ["@alchez/aform"],
 			"shouldPublish": true
 		},
 		{
-			"packageName": "@agritheory/aform",
+			"packageName": "@alchez/aform",
 			"projectFolder": "aform",
 			"reviewCategory": "prototype",
 			// to avoid circular dependency problems
-			"decoupledLocalDependencies": ["@agritheory/atable"],
+			"decoupledLocalDependencies": ["@alchez/atable"],
 			"shouldPublish": true
 		},
 		{
-			"packageName": "@agritheory/desktop",
+			"packageName": "@alchez/desktop",
 			"projectFolder": "desktop",
 			"reviewCategory": "prototype",
 			"shouldPublish": false
 		},
 		{
-			"packageName": "@agritheory/examples",
+			"packageName": "@alchez/examples",
 			"projectFolder": "examples",
 			"reviewCategory": "prototype",
 			"shouldPublish": false
 		},
 		{
-			"packageName": "@agritheory/utilities",
+			"packageName": "@alchez/utilities",
 			"projectFolder": "utilities",
 			"reviewCategory": "utilities",
 			"shouldPublish": true
 		}
 		// {
-		//   "packageName": "@agritheory/beam",
+		//   "packageName": "@alchez/beam",
 		//   "projectFolder": "beam",
 		//   "reviewCategory": "prototype"
 		// },
 		// {
-		//   "packageName": "@agritheory/themes",
+		//   "packageName": "@alchez/themes",
 		//   "projectFolder": "themes",
 		//   "reviewCategory": "prototype"
 		// },
 		// {
-		//   "packageName": "@agritheory/docs",
+		//   "packageName": "@alchez/docs",
 		//   "projectFolder": "docs",
 		//   "reviewCategory": "documentation"
 		// }

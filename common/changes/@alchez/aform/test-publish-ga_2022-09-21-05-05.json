@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@alchez/aform",
+      "comment": "1",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@alchez/aform"
+}

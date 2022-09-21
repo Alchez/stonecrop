@@ -1,22 +1,22 @@
 {
-	"name": "@agritheory/examples",
+	"name": "@alchez/examples",
 	"private": true,
 	"version": "0.1.0",
 	"description": "Example App(s) for the Stonecrop framework",
 	"main": "index.js",
 	"license": "MIT",
 	"dependencies": {
-		"cypress": "^8.1.0",
-		"miragejs": "^0.1.42",
+		"@alchez/aform": "workspace:^0.1.1",
+		"@alchez/atable": "workspace:^0.1.1",
+		"@alchez/desktop": "workspace:^0.1.0",
+		"@alchez/stonecrop": "workspace:^0.1.0",
 		"@miragejs/graphql": "^0.1.13",
-		"@agritheory/atable": "workspace:^0.1.0",
-		"@agritheory/aform": "workspace:^0.1.0",
-		"@agritheory/stonecrop": "workspace:^0.1.0",
-		"vite": "^3.0.5",
 		"@vitejs/plugin-vue": "^3.0.1",
-		"vue": "^3.2.37",
-		"@agritheory/desktop": "workspace:^0.1.0",
-		"uuid": "^8.3.2"
+		"cypress": "^10.8.0",
+		"miragejs": "^0.1.42",
+		"uuid": "^8.3.2",
+		"vite": "^3.0.5",
+		"vue": "^3.2.37"
 	},
 	"scripts": {
 		"dev:crud": "vite serve cruddesk/ -c cruddesk/vite.config.js -d",

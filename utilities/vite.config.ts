@@ -15,7 +15,7 @@ export default defineConfig({
 		minify: false,
 		lib: {
 			entry: resolve(projectRootDir, 'src/index.ts'),
-			name: '@agritheory/utilities',
+			name: '@alchez/utilities',
 		},
 		rollupOptions: {
 			external: ['vue'],

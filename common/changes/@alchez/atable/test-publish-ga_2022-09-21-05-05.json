@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@alchez/atable",
+      "comment": "2",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@alchez/atable"
+}

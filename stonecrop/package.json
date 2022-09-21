@@ -1,5 +1,5 @@
 {
-	"name": "@agritheory/stonecrop",
+	"name": "@alchez/stonecrop",
 	"version": "0.1.0",
 	"description": "schema helper",
 	"main": "index.js",
@@ -12,15 +12,12 @@
 		"unstorage": "^0.2.7"
 	},
 	"devDependencies": {
-		"@agritheory/atable": "workspace:^0.1.0",
-		"@agritheory/aform": "workspace:^0.1.0",
-		"cypress": "^8.1.0",
+		"@alchez/atable": "workspace:^0.1.1",
+		"@alchez/aform": "workspace:^0.1.1",
+		"cypress": "^10.8.0",
 		"@cypress/vue": "^3.0.0-beta.4",
 		"@cypress/vite-dev-server": "^2.0.3",
 		"@vitejs/plugin-vue": "^3.0.1",
-		"node-sass": "^6.0.1",
-		"sass": "^1.35.1",
-		"sass-loader": "^12.1.0",
 		"vite": "^3.0.5",
 		"vue-template-compiler": "^2.6.14",
 		"vue-router": "^4",
