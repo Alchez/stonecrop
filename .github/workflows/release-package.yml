@@ -1,13 +1,9 @@
 name: Node.js Package
 
-on:
-  pull_request:
-    types:
-      - closed
+on: 'push'
 
 jobs:
   publish-gpr:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
