@@ -9,9 +9,11 @@
 		"reviewCategories": ["production", "tool", "prototype", "documentation", "utilities"],
 		"ignoredNpmScopes": ["@types"]
 	},
-	"gitPolicy": {},
+	"gitPolicy": {
+		"versionBumpCommitMessage": "Update package versions [skip ci]"
+	},
 	"repository": {
-		"url": "https://github.com/agritheory/stonecrop",
+		"url": "https://github.com/alchez/stonecrop",
 		"defaultBranch": "development",
 		"defaultRemote": "origin"
 	},
