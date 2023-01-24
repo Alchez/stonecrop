@@ -1,5 +1,5 @@
 {
-	"name": "@agritheory/aform",
+	"name": "@alchez/aform",
 	"version": "0.1.2",
 	"type": "module",
 	"main": "dist/aform.js",
@@ -21,17 +21,17 @@
 		"lint": "eslint . --ext .ts,.vue"
 	},
 	"dependencies": {
-		"@agritheory/utilities": "workspace:*",
+		"@alchez/utilities": "workspace:*",
 		"uuid": "^9.0.0",
 		"vue": "^3.2.37",
-		"@agritheory/themes": "workspace:*"
+		"@alchez/themes": "workspace:*"
 	},
 	"peerDependencies": {
-		"@agritheory/atable": "workspace:*"
+		"@alchez/atable": "workspace:*"
 	},
 	"devDependencies": {
 		"@histoire/plugin-vue": "^0.12.4",
-		"@agritheory/atable": "workspace:*",
+		"@alchez/atable": "workspace:*",
 		"@types/uuid": "^9.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.33.0",
 		"@typescript-eslint/parser": "^5.33.0",

@@ -1,4 +1,4 @@
-# Change Log - @agritheory/utilities
+# Change Log - @alchez/utilities
 
 This log was last generated on Fri, 14 Oct 2022 23:32:04 GMT and should not be manually modified.
 
@@ -15,4 +15,3 @@ Thu, 29 Sep 2022 12:25:57 GMT
 ### Patches
 
 - Reconfigure build outputs
-

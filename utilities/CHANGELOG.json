@@ -1,9 +1,9 @@
 {
-  "name": "@agritheory/utilities",
+  "name": "@alchez/utilities",
   "entries": [
     {
       "version": "0.2.0",
-      "tag": "@agritheory/utilities_v0.2.0",
+      "tag": "@alchez/utilities_v0.2.0",
       "date": "Fri, 14 Oct 2022 23:32:04 GMT",
       "comments": {
         "minor": [
@@ -17,7 +17,7 @@
     },
     {
       "version": "0.1.1",
-      "tag": "@agritheory/utilities_v0.1.1",
+      "tag": "@alchez/utilities_v0.1.1",
       "date": "Thu, 29 Sep 2022 12:25:57 GMT",
       "comments": {
         "patch": [

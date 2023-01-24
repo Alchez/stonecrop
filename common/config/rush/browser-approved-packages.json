@@ -3,27 +3,27 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
   "packages": [
     {
-      "name": "@agritheory/aform",
+      "name": "@alchez/aform",
       "allowedCategories": [ "prototype" ]
     },
     {
-      "name": "@agritheory/atable",
+      "name": "@alchez/atable",
       "allowedCategories": [ "prototype" ]
     },
     {
-      "name": "@agritheory/desktop",
+      "name": "@alchez/desktop",
       "allowedCategories": [ "prototype" ]
     },
     {
-      "name": "@agritheory/stonecrop",
+      "name": "@alchez/stonecrop",
       "allowedCategories": [ "prototype" ]
     },
     {
-      "name": "@agritheory/themes",
+      "name": "@alchez/themes",
       "allowedCategories": [ "prototype" ]
     },
     {
-      "name": "@agritheory/utilities",
+      "name": "@alchez/utilities",
       "allowedCategories": [ "prototype" ]
     },
     {

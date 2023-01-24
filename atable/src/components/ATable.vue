@@ -164,7 +164,7 @@ window.addEventListener('keydown', (event: KeyboardEvent) => {
 </script>
 
 <style scoped>
-@import url('@agritheory/themes/default/default.css');
+@import url('@alchez/themes/default/default.css');
 table {
 	display: table;
 	border-collapse: collapse;

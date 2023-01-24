@@ -1,5 +1,5 @@
 {
-	"name": "@agritheory/utilities",
+	"name": "@alchez/utilities",
 	"version": "0.2.0",
 	"type": "module",
 	"main": "dist/utilities.js",

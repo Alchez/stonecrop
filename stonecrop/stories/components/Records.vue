@@ -6,8 +6,8 @@
 import { reactive, inject, onBeforeMount, ref } from 'vue'
 import { useRoute } from 'vue-router'
 
-import { SchemaTypes } from '@agritheory/aform/types'
-import { ATable } from '@agritheory/atable'
+import { SchemaTypes } from '@alchez/aform/types'
+import { ATable } from '@alchez/atable'
 
 import Registry from '@/registry'
 import { ImmutableDoctype } from 'types/index'

@@ -1,13 +1,14 @@
 name: Publish Packages
 
 on:
+  push:
   pull_request:
     types:
       - closed
 
 jobs:
   publish-gpr:
-    if: github.event.pull_request.merged == true
+    # if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: write

@@ -34,8 +34,8 @@ import { v4 } from 'uuid'
 import { CSSProperties, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 
-import { TableDataStore } from '@agritheory/atable'
-import { TableColumn, TableRow } from '@agritheory/atable/types'
+import { TableDataStore } from '@alchez/atable'
+import { TableColumn, TableRow } from '@alchez/atable/types'
 
 const router = useRouter()
 

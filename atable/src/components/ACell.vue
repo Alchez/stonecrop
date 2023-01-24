@@ -27,7 +27,7 @@
 <script setup lang="ts">
 import { computed, CSSProperties, inject, ref } from 'vue'
 
-import { defaultKeypressHandlers, useKeyboardNav } from '@agritheory/utilities'
+import { defaultKeypressHandlers, useKeyboardNav } from '@alchez/utilities'
 import TableDataStore from '.'
 
 const props = withDefaults(

@@ -2,7 +2,7 @@ import { List, Map } from 'immutable'
 import { createApp } from 'vue'
 import { RouteRecordRaw } from 'vue-router'
 
-import { ADate, ATextInput } from '@agritheory/aform'
+import { ADate, ATextInput } from '@alchez/aform'
 import Doctype from '@/doctype'
 import Stonecrop from '@/index'
 import router from '@/router'

@@ -1,5 +1,5 @@
 {
-	"name": "@agritheory/code-editor",
+	"name": "@alchez/code-editor",
 	"version": "0.1.2",
 	"type": "module",
 	"main": "dist/code_editor.js",
@@ -21,14 +21,14 @@
 		"lint": "eslint . --ext .ts,.vue"
 	},
 	"dependencies": {
-		"@agritheory/themes": "workspace:*",
-		"@agritheory/utilities": "workspace:*",
+		"@alchez/themes": "workspace:*",
+		"@alchez/utilities": "workspace:*",
 		"@monaco-editor/loader": "~1.3.2",
 		"monaco-editor": "~0.34.1",
 		"vue": "^3.2.37"
 	},
 	"devDependencies": {
-		"@agritheory/atable": "workspace:^0.2.0",
+		"@alchez/atable": "workspace:^0.2.0",
 		"@histoire/plugin-vue": "^0.12.4",
 		"@types/uuid": "^9.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.33.0",

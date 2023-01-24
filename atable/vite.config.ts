@@ -23,7 +23,7 @@ export default defineConfig({
 		sourcemap: true,
 		lib: {
 			entry: resolve(projectRootDir, 'src/index.ts'),
-			name: '@agritheory/atable',
+			name: '@alchez/atable',
 		},
 		rollupOptions: {
 			external: ['vue'],
