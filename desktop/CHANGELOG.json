@@ -1,0 +1,19 @@
+{
+  "name": "@alchez/desktop",
+  "entries": [
+    {
+      "version": "0.1.3",
+      "tag": "@alchez/desktop_v0.1.3",
+      "date": "Tue, 24 Jan 2023 06:06:04 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Publish package",
+            "author": "Rohan Bansal <rohan@parsimony.com>",
+            "commit": "95fb39bd1fd7d916cc1f647b4477b45f6b510a3b"
+          }
+        ]
+      }
+    }
+  ]
+}
