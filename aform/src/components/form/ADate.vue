@@ -44,8 +44,8 @@
 <script setup lang="ts">
 import { computed, inject, nextTick, onMounted, ref, watch } from 'vue'
 
-import { TableDataStore } from '@agritheory/atable'
-import { defaultKeypressHandlers, useKeyboardNav } from '@agritheory/utilities'
+import { TableDataStore } from '@alchez/atable'
+import { defaultKeypressHandlers, useKeyboardNav } from '@alchez/utilities'
 
 const props = defineProps<{
 	colIndex?: number

@@ -1,5 +1,5 @@
 {
-	"name": "@agritheory/desktop",
+	"name": "@alchez/desktop",
 	"version": "0.1.2",
 	"type": "module",
 	"description": "desktop specific components for Stonecrop UI",

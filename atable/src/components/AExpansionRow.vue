@@ -16,7 +16,7 @@
 import { TableRow } from 'types'
 import { inject, ref } from 'vue'
 
-import { useKeyboardNav } from '@agritheory/utilities'
+import { useKeyboardNav } from '@alchez/utilities'
 
 import TableDataStore from '.'
 

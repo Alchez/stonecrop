@@ -1,5 +1,5 @@
 {
-	"name": "@agritheory/node_editor",
+	"name": "@alchez/node_editor",
 	"version": "0.1.0",
 	"type": "module",
 	"description": "Node editor UI for Stonecrop",

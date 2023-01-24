@@ -18,7 +18,7 @@ export default defineConfig({
 		sourcemap: true,
 		lib: {
 			entry: resolve(projectRootDir, 'src/index.js'),
-			name: '@agritheory/desktop',
+			name: '@alchez/desktop',
 		},
 		rollupOptions: {
 			external: ['vue'],

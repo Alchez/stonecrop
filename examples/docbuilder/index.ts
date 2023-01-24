@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 
-import { AFieldset, AForm, ANumericInput, ATextInput } from '@agritheory/aform'
-import { ACell, ARow, ATableHeader, ATableModal, ATable } from '@agritheory/atable'
+import { AFieldset, AForm, ANumericInput, ATextInput } from '@alchez/aform'
+import { ACell, ARow, ATableHeader, ATableModal, ATable } from '@alchez/atable'
 import App from './App.vue'
 import router from './router'
 

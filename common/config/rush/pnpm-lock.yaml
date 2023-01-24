@@ -7,9 +7,9 @@ importers:
 
   ../../aform:
     specifiers:
-      '@agritheory/atable': workspace:*
-      '@agritheory/themes': workspace:*
-      '@agritheory/utilities': workspace:*
+      '@alchez/atable': workspace:*
+      '@alchez/themes': workspace:*
+      '@alchez/utilities': workspace:*
       '@histoire/plugin-vue': ^0.12.4
       '@types/uuid': ^9.0.0
       '@typescript-eslint/eslint-plugin': ^5.33.0
@@ -26,12 +26,12 @@ importers:
       vue: ^3.2.37
       vue-router: ^4
     dependencies:
-      '@agritheory/themes': link:../themes
-      '@agritheory/utilities': link:../utilities
+      '@alchez/themes': link:../themes
+      '@alchez/utilities': link:../utilities
       uuid: 9.0.0
       vue: 3.2.45
     devDependencies:
-      '@agritheory/atable': link:../atable
+      '@alchez/atable': link:../atable
       '@histoire/plugin-vue': 0.12.4_jqvjr2esqd34alwy6xppejkevm
       '@types/uuid': 9.0.0
       '@typescript-eslint/eslint-plugin': 5.47.0_ncmi6noazr3nzas7jxykisekym
@@ -48,9 +48,9 @@ importers:
 
   ../../atable:
     specifiers:
-      '@agritheory/aform': workspace:*
-      '@agritheory/themes': workspace:*
-      '@agritheory/utilities': workspace:*
+      '@alchez/aform': workspace:*
+      '@alchez/themes': workspace:*
+      '@alchez/utilities': workspace:*
       '@histoire/plugin-vue': ^0.12.4
       '@types/uuid': ^9.0.0
       '@typescript-eslint/eslint-plugin': ^5.33.0
@@ -67,12 +67,12 @@ importers:
       vue: ^3.2.37
       vue-router: ^4
     dependencies:
-      '@agritheory/themes': link:../themes
-      '@agritheory/utilities': link:../utilities
+      '@alchez/themes': link:../themes
+      '@alchez/utilities': link:../utilities
       uuid: 9.0.0
       vue: 3.2.45
     devDependencies:
-      '@agritheory/aform': link:../aform
+      '@alchez/aform': link:../aform
       '@histoire/plugin-vue': 0.12.4_jqvjr2esqd34alwy6xppejkevm
       '@types/uuid': 9.0.0
       '@typescript-eslint/eslint-plugin': 5.47.0_ncmi6noazr3nzas7jxykisekym
@@ -89,9 +89,9 @@ importers:
 
   ../../code_editor:
     specifiers:
-      '@agritheory/atable': workspace:^0.2.0
-      '@agritheory/themes': workspace:*
-      '@agritheory/utilities': workspace:*
+      '@alchez/atable': workspace:^0.2.0
+      '@alchez/themes': workspace:*
+      '@alchez/utilities': workspace:*
       '@histoire/plugin-vue': ^0.12.4
       '@monaco-editor/loader': ~1.3.2
       '@types/uuid': ^9.0.0
@@ -109,13 +109,13 @@ importers:
       vue: ^3.2.37
       vue-router: ^4
     dependencies:
-      '@agritheory/themes': link:../themes
-      '@agritheory/utilities': link:../utilities
+      '@alchez/themes': link:../themes
+      '@alchez/utilities': link:../utilities
       '@monaco-editor/loader': 1.3.2_monaco-editor@0.34.1
       monaco-editor: 0.34.1
       vue: 3.2.45
     devDependencies:
-      '@agritheory/atable': link:../atable
+      '@alchez/atable': link:../atable
       '@histoire/plugin-vue': 0.12.4_jqvjr2esqd34alwy6xppejkevm
       '@types/uuid': 9.0.0
       '@typescript-eslint/eslint-plugin': 5.47.0_ncmi6noazr3nzas7jxykisekym
@@ -153,10 +153,10 @@ importers:
 
   ../../examples:
     specifiers:
-      '@agritheory/aform': workspace:^0.1.2
-      '@agritheory/atable': workspace:^0.2.0
-      '@agritheory/desktop': workspace:^0.1.0
-      '@agritheory/stonecrop': workspace:^0.1.0
+      '@alchez/aform': workspace:^0.1.2
+      '@alchez/atable': workspace:^0.2.0
+      '@alchez/desktop': workspace:^0.1.0
+      '@alchez/stonecrop': workspace:^0.1.0
       '@miragejs/graphql': ^0.1.13
       '@types/uuid': ^9.0.0
       '@typescript-eslint/eslint-plugin': ^5.33.0
@@ -172,10 +172,10 @@ importers:
       vue: ^3.2.37
       vue-router: ^4
     dependencies:
-      '@agritheory/aform': link:../aform
-      '@agritheory/atable': link:../atable
-      '@agritheory/desktop': link:../desktop
-      '@agritheory/stonecrop': link:../stonecrop
+      '@alchez/aform': link:../aform
+      '@alchez/atable': link:../atable
+      '@alchez/desktop': link:../desktop
+      '@alchez/stonecrop': link:../stonecrop
       '@miragejs/graphql': 0.1.13
       '@vitejs/plugin-vue': 4.0.0_vite@4.0.3+vue@3.2.45
       miragejs: 0.1.46
@@ -217,8 +217,8 @@ importers:
 
   ../../stonecrop:
     specifiers:
-      '@agritheory/aform': workspace:^0.1.2
-      '@agritheory/atable': workspace:^0.2.0
+      '@alchez/aform': workspace:^0.1.2
+      '@alchez/atable': workspace:^0.2.0
       '@miragejs/graphql': ^0.1.13
       '@typescript-eslint/eslint-plugin': ^5.33.0
       '@typescript-eslint/parser': ^5.33.0
@@ -245,8 +245,8 @@ importers:
       vue-router: 4.1.6_vue@3.2.45
       xstate: 4.33.6
     devDependencies:
-      '@agritheory/aform': link:../aform
-      '@agritheory/atable': link:../atable
+      '@alchez/aform': link:../aform
+      '@alchez/atable': link:../atable
       '@miragejs/graphql': 0.1.13
       '@typescript-eslint/eslint-plugin': 5.47.0_ncmi6noazr3nzas7jxykisekym
       '@typescript-eslint/parser': 5.47.0_lzzuuodtsqwxnvqeq4g4likcqa

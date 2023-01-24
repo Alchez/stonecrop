@@ -11,7 +11,7 @@ import { List } from 'immutable'
 import { inject, onBeforeMount, ref } from 'vue'
 import { useRoute } from 'vue-router'
 
-import { AForm } from '@agritheory/aform'
+import { AForm } from '@alchez/aform'
 
 import Registry from '@/registry'
 import { ImmutableDoctype, Schema } from 'types/index'

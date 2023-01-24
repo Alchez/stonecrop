@@ -1,5 +1,5 @@
 {
-	"name": "@agritheory/stonecrop",
+	"name": "@alchez/stonecrop",
 	"version": "0.1.2",
 	"type": "module",
 	"description": "schema helper",
@@ -26,8 +26,8 @@
 		"xstate": "~4.33.6"
 	},
 	"devDependencies": {
-		"@agritheory/aform": "workspace:^0.1.2",
-		"@agritheory/atable": "workspace:^0.2.0",
+		"@alchez/aform": "workspace:^0.1.2",
+		"@alchez/atable": "workspace:^0.2.0",
 		"@miragejs/graphql": "^0.1.13",
 		"@typescript-eslint/eslint-plugin": "^5.33.0",
 		"@typescript-eslint/parser": "^5.33.0",
