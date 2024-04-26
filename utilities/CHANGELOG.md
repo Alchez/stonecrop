@@ -1,6 +1,27 @@
-# Change Log - @agritheory/utilities
+# Change Log - @stonecrop/utilities
 
-This log was last generated on Fri, 14 Oct 2022 23:32:04 GMT and should not be manually modified.
+This log was last generated on Fri, 26 Apr 2024 06:33:50 GMT and should not be manually modified.
+
+## 0.2.10
+Fri, 26 Apr 2024 06:33:50 GMT
+
+_Version update only_
+
+## 0.2.9
+Fri, 26 Apr 2024 06:33:35 GMT
+
+_Version update only_
+
+## 0.2.8
+Fri, 26 Apr 2024 06:30:52 GMT
+
+### Updates
+
+- Version bump
+- Version bump
+- Update dependencies
+- Update package name
+- Remove distributable files from git
 
 ## 0.2.0
 Fri, 14 Oct 2022 23:32:04 GMT

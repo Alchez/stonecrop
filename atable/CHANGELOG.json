@@ -1,6 +1,47 @@
 {
-  "name": "@agritheory/atable",
+  "name": "@stonecrop/atable",
   "entries": [
+    {
+      "version": "0.2.10",
+      "tag": "@stonecrop/atable_v0.2.10",
+      "date": "Fri, 26 Apr 2024 06:33:50 GMT",
+      "comments": {}
+    },
+    {
+      "version": "0.2.9",
+      "tag": "@stonecrop/atable_v0.2.9",
+      "date": "Fri, 26 Apr 2024 06:33:35 GMT",
+      "comments": {}
+    },
+    {
+      "version": "0.2.8",
+      "tag": "@stonecrop/atable_v0.2.8",
+      "date": "Fri, 26 Apr 2024 06:30:52 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Version bump"
+          },
+          {
+            "comment": "Version bump"
+          },
+          {
+            "comment": "Update dependencies"
+          },
+          {
+            "comment": "Update package name"
+          },
+          {
+            "comment": "Remove distributable files from git"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "update coverage report"
+          }
+        ]
+      }
+    },
     {
       "version": "0.2.0",
       "tag": "@agritheory/atable_v0.2.0",

@@ -1,4 +1,4 @@
-# Change Log - @stonecrop/desktop
+# Change Log - @stonecrop/beam
 
 This log was last generated on Fri, 26 Apr 2024 06:33:50 GMT and should not be manually modified.
 
@@ -18,15 +18,5 @@ Fri, 26 Apr 2024 06:30:52 GMT
 ### Updates
 
 - Version bump
-- Version bump
 - Update dependencies
-- Update package name
-- Remove distributable files from git
-
-## 0.1.3
-Tue, 11 Apr 2023 16:39:13 GMT
-
-### Patches
-
-- Publish package
 
