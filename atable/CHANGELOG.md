@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/atable
 
-This log was last generated on Mon, 21 Oct 2024 12:11:04 GMT and should not be manually modified.
+This log was last generated on Tue, 29 Oct 2024 12:10:41 GMT and should not be manually modified.
+
+## 0.2.45
+Tue, 29 Oct 2024 12:10:41 GMT
+
+### Patches
+
+- allow arbitrary HTML in table cells
 
 ## 0.2.44
 Mon, 21 Oct 2024 12:11:04 GMT
