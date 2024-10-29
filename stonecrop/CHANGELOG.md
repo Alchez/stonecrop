@@ -1,6 +1,11 @@
 # Change Log - @stonecrop/stonecrop
 
-This log was last generated on Tue, 29 Oct 2024 12:10:41 GMT and should not be manually modified.
+This log was last generated on Tue, 29 Oct 2024 17:31:02 GMT and should not be manually modified.
+
+## 0.2.46
+Tue, 29 Oct 2024 17:31:02 GMT
+
+_Version update only_
 
 ## 0.2.45
 Tue, 29 Oct 2024 12:10:41 GMT
