@@ -2,6 +2,18 @@
   "name": "@stonecrop/aform",
   "entries": [
     {
+      "version": "0.2.47",
+      "tag": "@stonecrop/aform_v0.2.47",
+      "date": "Wed, 30 Oct 2024 11:56:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update theme path"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.46",
       "tag": "@stonecrop/aform_v0.2.46",
       "date": "Tue, 29 Oct 2024 17:31:02 GMT",

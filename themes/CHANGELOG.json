@@ -2,6 +2,18 @@
   "name": "@stonecrop/themes",
   "entries": [
     {
+      "version": "0.2.47",
+      "tag": "@stonecrop/themes_v0.2.47",
+      "date": "Wed, 30 Oct 2024 11:56:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "export themes correctly"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.46",
       "tag": "@stonecrop/themes_v0.2.46",
       "date": "Tue, 29 Oct 2024 17:31:02 GMT",
