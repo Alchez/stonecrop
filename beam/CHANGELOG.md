@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/beam
 
-This log was last generated on Thu, 07 Nov 2024 07:32:46 GMT and should not be manually modified.
+This log was last generated on Thu, 07 Nov 2024 07:38:42 GMT and should not be manually modified.
+
+## 0.2.52
+Thu, 07 Nov 2024 07:38:42 GMT
+
+### Patches
+
+- added BeamFilter component
 
 ## 0.2.51
 Thu, 07 Nov 2024 07:32:46 GMT

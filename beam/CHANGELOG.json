@@ -2,6 +2,18 @@
   "name": "@stonecrop/beam",
   "entries": [
     {
+      "version": "0.2.52",
+      "tag": "@stonecrop/beam_v0.2.52",
+      "date": "Thu, 07 Nov 2024 07:38:42 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "added BeamFilter component"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.51",
       "tag": "@stonecrop/beam_v0.2.51",
       "date": "Thu, 07 Nov 2024 07:32:46 GMT",
