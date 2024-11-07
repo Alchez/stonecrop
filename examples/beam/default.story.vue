@@ -49,7 +49,44 @@
 				</div>
 			</BeamMetadata>
 		</Variant>
-		<Variant title="Filter ListView">
+
+		<Variant title="toast">
+			<template #controls>
+				<HstText v-model="toastMsg" title="Toast Message" />
+				<HstSelect
+					v-model="toastType"
+					:title="'Type'"
+					:options="{
+						default: 'default',
+						success: 'success',
+						error: 'error',
+						warning: 'warning',
+					}" />
+				<HstSelect
+					v-model="toastPosition"
+					:title="'Position'"
+					:options="{
+						top: 'top',
+						'top-right': 'top-right',
+						'top-left': 'top-left',
+						bottom: 'bottom',
+						'bottom-right': 'bottom-right',
+						'bottom-left': 'bottom-left',
+					}" />
+				<HstSlider v-model="toastTime" :step="0.5" :min="0" :max="20" title="Duration (Seconds)" />
+			</template>
+			<BeamModal @confirmmodal="confirmModal" @closemodal="closeModal" :showModal="showModal">
+				<Confirm @confirmmodal="confirmModal" @closemodal="closeModal" />
+			</BeamModal>
+			<Navbar @click="showNotification">
+				<template #title>
+					<h1 class="nav-title">Items to Receive</h1>
+				</template>
+				<template #navbaraction>Show Notification</template>
+			</Navbar>
+		</Variant>
+
+		<Variant title="list filters">
 			<FixedTop>
 				<Navbar @click="handlePrimaryAction">
 					<template #title>
@@ -85,6 +122,8 @@
 
 <script setup lang="ts">
 import { ref, reactive } from 'vue'
+import { type ToastPosition, useToast } from 'vue-toast-notification'
+import 'vue-toast-notification/dist/theme-default.css'
 
 import items from './data/items.json'
 
@@ -95,6 +134,23 @@ const workOrder = reactive({
 	total: 20,
 	complete: false,
 })
+
+// Start Toast //
+const toast = useToast()
+const toastType = ref('default')
+const toastTime = ref(3)
+const toastMsg = ref('Toast Message.')
+const toastPosition = ref<ToastPosition>('top')
+
+const showNotification = () => {
+	toast.open({
+		message: toastMsg.value,
+		type: toastType.value,
+		position: toastPosition.value,
+		duration: toastTime.value * 1000,
+	})
+}
+// End Toast //
 
 const showModal = ref(false)
 
