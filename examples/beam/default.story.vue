@@ -49,6 +49,37 @@
 				</div>
 			</BeamMetadata>
 		</Variant>
+		<Variant title="Filter ListView">
+			<FixedTop>
+				<Navbar @click="handlePrimaryAction">
+					<template #title>
+						<BeamHeading>Items to Receive</BeamHeading>
+					</template>
+					<template #navbaraction>Done</template>
+				</Navbar>
+				<BeamFilter>
+					<BeamFilterOption
+						:title="'Status'"
+						:choices="[
+							{ choice: 'All', value: 'all' },
+							{ choice: 'Complete', value: 'complete' },
+							{ choice: 'Incomplete', value: 'incomplete' },
+						]" />
+					<BeamFilterOption
+						:title="'Delivery Start Date'"
+						:choices="[
+							{ choice: 'All', value: 'all' },
+							{ choice: 'Past', value: 'past' },
+							{ choice: 'Today', value: 'today' },
+							{ choice: 'Future', value: 'future' },
+						]" />
+				</BeamFilter>
+			</FixedTop>
+			<ListView :items="items" @scrollbottom="loadMoreItems" />
+			<ActionFooter @click="handlePrimaryAction">Done</ActionFooter>
+			<ScanInput :scanHandler="incrementItemCount" />
+			<BeamModalOutlet @confirmmodal="confirmModal" @closemodal="closeModal"></BeamModalOutlet>
+		</Variant>
 	</Story>
 </template>
 
