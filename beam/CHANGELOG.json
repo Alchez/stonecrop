@@ -2,6 +2,18 @@
   "name": "@stonecrop/beam",
   "entries": [
     {
+      "version": "0.2.56",
+      "tag": "@stonecrop/beam_v0.2.56",
+      "date": "Tue, 19 Nov 2024 09:44:32 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "add emit on item count update"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.55",
       "tag": "@stonecrop/beam_v0.2.55",
       "date": "Tue, 19 Nov 2024 07:13:25 GMT",
