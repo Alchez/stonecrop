@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/beam
 
-This log was last generated on Sat, 23 Nov 2024 17:29:12 GMT and should not be manually modified.
+This log was last generated on Wed, 27 Nov 2024 12:32:53 GMT and should not be manually modified.
+
+## 0.2.58
+Wed, 27 Nov 2024 12:32:53 GMT
+
+### Updates
+
+- added day divider to beam
 
 ## 0.2.57
 Sat, 23 Nov 2024 17:29:12 GMT
