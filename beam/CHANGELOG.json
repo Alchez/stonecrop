@@ -2,6 +2,18 @@
   "name": "@stonecrop/beam",
   "entries": [
     {
+      "version": "0.2.61",
+      "tag": "@stonecrop/beam_v0.2.61",
+      "date": "Tue, 03 Dec 2024 06:50:08 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "apply individual margins for divider elements"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.60",
       "tag": "@stonecrop/beam_v0.2.60",
       "date": "Tue, 03 Dec 2024 06:36:32 GMT",
