@@ -1,5 +1,13 @@
 <template>
 	<div>Nuxt module playground!</div>
+	<div v-if="isReady">
+		<p>Stonecrop is ready!</p>
+	</div>
+	<pre>{{ stonecrop }}</pre>
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+import { useStonecrop } from '@stonecrop/stonecrop'
+
+const { stonecrop, isReady } = useStonecrop()
+</script>

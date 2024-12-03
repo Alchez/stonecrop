@@ -1,19 +1,19 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin, createResolver, extendPages } from '@nuxt/kit'
 
-// Module options TypeScript interface definition
-export interface ModuleOptions {}
+const { resolve } = createResolver(import.meta.url)
 
-export default defineNuxtModule<ModuleOptions>({
+export default defineNuxtModule({
 	meta: {
 		name: '@stonecrop/nuxt',
 		configKey: 'stonecrop',
 	},
-	// Default configuration options of the Nuxt module
-	defaults: {},
-	setup(_options, _nuxt) {
-		const resolver = createResolver(import.meta.url)
 
+	setup(_options, _nuxt) {
 		// Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
-		addPlugin(resolver.resolve('./runtime/plugin'))
+		addPlugin(resolve('./runtime/plugin'))
+
+		extendPages(pages => {
+			console.log('pages', pages)
+		})
 	},
 })

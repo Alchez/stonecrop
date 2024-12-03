@@ -1,5 +1,10 @@
+import { Stonecrop } from '@stonecrop/stonecrop'
+import { useRouter } from 'nuxt/app'
+
 import { defineNuxtPlugin } from '#app'
 
 export default defineNuxtPlugin(_nuxtApp => {
-	console.log('Plugin injected by @stonecrop/nuxt!')
+	const router = useRouter()
+	const app = _nuxtApp.vueApp
+	app.use(Stonecrop, { router })
 })
