@@ -1,0 +1,58 @@
+{
+	"name": "@stonecrop/nuxt",
+	"version": "0.2.61",
+	"description": "Nuxt module for Stonecrop",
+	"license": "MIT",
+	"type": "module",
+	"author": {
+		"name": "Tyler Matteson",
+		"email": "tyler@agritheory.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/agritheory/stonecrop",
+		"directory": "nuxt"
+	},
+	"exports": {
+		".": {
+			"types": "./dist/types.d.ts",
+			"import": "./dist/module.mjs",
+			"require": "./dist/module.cjs"
+		}
+	},
+	"main": "./dist/module.cjs",
+	"types": "./dist/types.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"prepublish": "nuxt-module-build build",
+		"prepack": "nuxt-module-build build",
+		"build": "nuxt-module-build build",
+		"dev": "nuxi dev playground",
+		"dev:build": "nuxi build playground",
+		"dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
+		"lint": "eslint . --ext .ts,.vue",
+		"test": "vitest",
+		"test:ui": "vitest --ui"
+	},
+	"dependencies": {
+		"@nuxt/kit": "^3.14.1592"
+	},
+	"devDependencies": {
+		"@nuxt/devtools": "1.6.1",
+		"@nuxt/module-builder": "^0.8.4",
+		"@nuxt/schema": "^3.14.1592",
+		"@nuxt/test-utils": "^3.14.4",
+		"eslint": "^8.40.0",
+		"h3": "*",
+		"nitropack": "*",
+		"nuxi": "^3.13.1",
+		"nuxt": "^3.14.1592",
+		"typescript": "^5.5.2",
+		"vue": "^3.5.6",
+		"vite": "^5.4.5",
+		"vitest": "^2.1.1",
+		"vue-router": "^4.4.0"
+	}
+}
