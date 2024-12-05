@@ -2,6 +2,18 @@
   "name": "@stonecrop/atable",
   "entries": [
     {
+      "version": "0.2.62",
+      "tag": "@stonecrop/atable_v0.2.62",
+      "date": "Thu, 05 Dec 2024 14:20:47 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "expose table data on initialization"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.61",
       "tag": "@stonecrop/atable_v0.2.61",
       "date": "Tue, 03 Dec 2024 06:50:08 GMT",

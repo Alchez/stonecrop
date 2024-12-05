@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/atable
 
-This log was last generated on Tue, 03 Dec 2024 06:50:08 GMT and should not be manually modified.
+This log was last generated on Thu, 05 Dec 2024 14:20:47 GMT and should not be manually modified.
+
+## 0.2.62
+Thu, 05 Dec 2024 14:20:47 GMT
+
+### Patches
+
+- expose table data on initialization
 
 ## 0.2.61
 Tue, 03 Dec 2024 06:50:08 GMT
