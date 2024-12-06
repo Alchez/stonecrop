@@ -77,11 +77,22 @@ const {
 	config?: TableConfig
 }>()
 
-const emit = defineEmits(['update:modelValue'])
+const emit = defineEmits<{
+	'update:modelValue': [value: TableRow[]]
+	cellUpdate: [colIndex: number, rowIndex: number, newCellValue: any, prevCellValue: any]
+}>()
 
 const tableRef = useTemplateRef<HTMLTableElement>('table')
 const rowsValue = modelValue ? modelValue : rows
 const store = createTableStore({ columns, rows: rowsValue, id, config })
+
+store.$onAction(({ name, store, args }) => {
+	if (name === 'setCellData') {
+		const [colIndex, rowIndex, newCellValue] = args
+		const prevCellValue = store.getCellData(colIndex, rowIndex)
+		emit('cellUpdate', [colIndex, rowIndex, newCellValue, prevCellValue])
+	}
+})
 
 watch(
 	() => store.rows,

@@ -82,8 +82,7 @@ export const createTableStore = (initData: {
 
 		// actions
 		const getCellData = <T = any>(colIndex: number, rowIndex: number): T => table.value[`${colIndex}:${rowIndex}`]
-
-		const setCellData = (rowIndex: number, colIndex: number, value: any) => {
+		const setCellData = (colIndex: number, rowIndex: number, value: any) => {
 			const index = `${colIndex}:${rowIndex}`
 			const col = columns.value[colIndex]
 

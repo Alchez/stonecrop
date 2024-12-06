@@ -138,7 +138,7 @@ if (addNavigation) {
 // 	if (event) {
 // 		// custom components need to handle their own updateData, this is the default
 // 		if (!column.component) {
-// 			store.setCellData(rowIndex, colIndex, cell.value.innerHTML)
+// 			store.setCellData(colIndex, rowIndex, cell.value.innerHTML)
 // 		}
 // 		cellModified.value = true
 // 	}
@@ -164,7 +164,7 @@ const updateCellData = () => {
 			cellRef.value.dispatchEvent(new Event('change'))
 			if (!column.format) {
 				// TODO: need to setup reverse format function
-				store.setCellData(rowIndex, colIndex, currentData.value)
+				store.setCellData(colIndex, rowIndex, currentData.value)
 			}
 		}
 	}
