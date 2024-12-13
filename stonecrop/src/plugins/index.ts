@@ -1,16 +1,17 @@
 import { App, type Plugin } from 'vue'
 
 import Registry from '@/registry'
-import router from '@/router'
 import { pinia } from '@/stores'
 import type { InstallOptions } from '@/types'
 
 const plugin: Plugin = {
 	install: (app: App, options?: InstallOptions) => {
-		const appRouter = options?.router || router
-		const registry = new Registry(appRouter, options?.getMeta)
+		const registry = new Registry(options?.router, options?.getMeta)
 
-		app.use(appRouter)
+		if (options?.router) {
+			app.use(options.router)
+		}
+
 		app.use(pinia)
 		app.provide('$registry', registry)
 

@@ -5,11 +5,11 @@ import DoctypeMeta from '@/doctype'
 export default class Registry {
 	static _root: Registry
 	name: string
-	router: Router
+	router?: Router
 	registry: Record<string, DoctypeMeta>
 	getMeta?: (doctype: string) => DoctypeMeta | Promise<DoctypeMeta>
 
-	constructor(router: Router, getMeta?: (doctype: string) => DoctypeMeta | Promise<DoctypeMeta>) {
+	constructor(router?: Router, getMeta?: (doctype: string) => DoctypeMeta | Promise<DoctypeMeta>) {
 		if (Registry._root) {
 			return Registry._root
 		}
@@ -24,8 +24,8 @@ export default class Registry {
 		if (!(doctype.doctype in Object.keys(this.registry))) {
 			this.registry[doctype.slug] = doctype
 		}
-		if (!this.router.hasRoute(doctype.doctype)) {
-			this.router.addRoute({
+		if (!this.router?.hasRoute(doctype.doctype)) {
+			this.router?.addRoute({
 				path: `/${doctype.slug}`,
 				name: doctype.slug,
 				component: doctype.component,

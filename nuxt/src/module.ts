@@ -12,8 +12,6 @@ export default defineNuxtModule({
 		// Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
 		addPlugin(resolve('./runtime/plugin'))
 
-		extendPages(pages => {
-			console.log('pages', pages)
-		})
+		extendPages(pages => {})
 	},
 })
