@@ -2,6 +2,12 @@
   "name": "@stonecrop/code-editor",
   "entries": [
     {
+      "version": "0.2.66",
+      "tag": "@stonecrop/code-editor_v0.2.66",
+      "date": "Fri, 13 Dec 2024 12:15:19 GMT",
+      "comments": {}
+    },
+    {
       "version": "0.2.65",
       "tag": "@stonecrop/code-editor_v0.2.65",
       "date": "Fri, 13 Dec 2024 06:53:37 GMT",
