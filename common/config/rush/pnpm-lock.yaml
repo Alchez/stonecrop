@@ -578,6 +578,9 @@ importers:
       '@nuxt/kit':
         specifier: ^3.14.1592
         version: 3.14.1592(magicast@0.3.5)(rollup@4.28.0)
+      '@stonecrop/aform':
+        specifier: workspace:*
+        version: link:../aform
       '@stonecrop/stonecrop':
         specifier: workspace:*
         version: link:../stonecrop
