@@ -581,9 +581,15 @@ importers:
       '@stonecrop/aform':
         specifier: workspace:*
         version: link:../aform
+      '@stonecrop/atable':
+        specifier: workspace:*
+        version: link:../atable
       '@stonecrop/stonecrop':
         specifier: workspace:*
         version: link:../stonecrop
+      pinia:
+        specifier: ^2.3.0
+        version: 2.3.0(typescript@5.6.2)(vue@3.5.13(typescript@5.6.2))
     devDependencies:
       '@nuxt/devtools':
         specifier: 1.6.1
@@ -11239,6 +11245,16 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
+  pinia@2.3.0(typescript@5.6.2)(vue@3.5.13(typescript@5.6.2)):
+    dependencies:
+      '@vue/devtools-api': 6.6.4
+      vue: 3.5.13(typescript@5.6.2)
+      vue-demi: 0.14.10(vue@3.5.13(typescript@5.6.2))
+    optionalDependencies:
+      typescript: 5.6.2
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+
   pinia@2.3.0(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2)):
     dependencies:
       '@vue/devtools-api': 6.6.4
@@ -12530,6 +12546,10 @@ snapshots:
   vue-demi@0.13.11(vue@3.5.13(typescript@5.7.2)):
     dependencies:
       vue: 3.5.13(typescript@5.7.2)
+
+  vue-demi@0.14.10(vue@3.5.13(typescript@5.6.2)):
+    dependencies:
+      vue: 3.5.13(typescript@5.6.2)
 
   vue-demi@0.14.10(vue@3.5.13(typescript@5.7.2)):
     dependencies:

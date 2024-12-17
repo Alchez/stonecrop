@@ -39,7 +39,9 @@
 	"dependencies": {
 		"@nuxt/kit": "^3.14.1592",
 		"@stonecrop/aform": "workspace:*",
-		"@stonecrop/stonecrop": "workspace:*"
+		"@stonecrop/atable": "workspace:*",
+		"@stonecrop/stonecrop": "workspace:*",
+		"pinia": "^2.3.0"
 	},
 	"devDependencies": {
 		"@nuxt/devtools": "1.6.1",
