@@ -2,6 +2,18 @@
   "name": "@stonecrop/atable",
   "entries": [
     {
+      "version": "0.3.2",
+      "tag": "@stonecrop/atable_v0.3.2",
+      "date": "Tue, 17 Dec 2024 10:07:54 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update table cell value reactively"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.3.1",
       "tag": "@stonecrop/atable_v0.3.1",
       "date": "Tue, 17 Dec 2024 08:28:48 GMT",

@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/atable
 
-This log was last generated on Tue, 17 Dec 2024 08:28:48 GMT and should not be manually modified.
+This log was last generated on Tue, 17 Dec 2024 10:07:54 GMT and should not be manually modified.
+
+## 0.3.2
+Tue, 17 Dec 2024 10:07:54 GMT
+
+### Patches
+
+- update table cell value reactively
 
 ## 0.3.1
 Tue, 17 Dec 2024 08:28:48 GMT
