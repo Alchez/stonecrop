@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/utilities
 
-This log was last generated on Mon, 16 Dec 2024 07:40:48 GMT and should not be manually modified.
+This log was last generated on Tue, 17 Dec 2024 08:28:48 GMT and should not be manually modified.
+
+## 0.3.1
+Tue, 17 Dec 2024 08:28:48 GMT
+
+### Patches
+
+- update deps
 
 ## 0.3.0
 Mon, 16 Dec 2024 07:40:48 GMT
