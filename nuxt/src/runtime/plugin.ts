@@ -9,6 +9,7 @@ import { defineNuxtPlugin } from '#app'
 export default defineNuxtPlugin(_nuxtApp => {
 	const pinia = createPinia()
 	const router = useRouter()
+
 	const app = _nuxtApp.vueApp
 	app.use(pinia)
 	app.use(AForm)

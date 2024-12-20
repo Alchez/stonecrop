@@ -6,10 +6,13 @@ import type { InstallOptions } from '../types'
 
 const plugin: Plugin = {
 	install: (app: App, options?: InstallOptions) => {
-		const registry = new Registry(options?.router, options?.getMeta)
+		// check if the router is already installed via another plugin
+		const existingRouter = app.config.globalProperties.$router
+		const appRouter = existingRouter || options?.router
+		const registry = new Registry(appRouter, options?.getMeta)
 
-		if (options?.router) {
-			app.use(options.router)
+		if (!existingRouter && appRouter) {
+			app.use(appRouter)
 		}
 
 		app.use(pinia)
