@@ -25,8 +25,23 @@ export default defineNuxtModule({
 			const homePagePath = resolve(pagesDir, 'StonecropPage.vue')
 
 			extendPages(pages => {
+				const pagePaths = pages.map(page => page.path)
+				if (pagePaths.includes('/')) {
+					throw new Error('[@stonecrop/nuxt] Conflict found with existing root page')
+				}
+
+				pages.unshift({
+					name: 'stonecrop-home',
+					path: '/',
+					file: homeLayoutPath,
+				})
+
 				for (const schema of schemas) {
 					const schemaName = schema.replace('.json', '')
+					if (pagePaths.includes(`/${schemaName}`)) {
+						throw new Error(`[@stonecrop/nuxt] Conflict found with existing page for doctype: ${schemaName}`)
+					}
+
 					const schemaPath = resolve(doctypesDir, schema)
 					const jsonData = require(schemaPath)
 					if (jsonData.schema) {
@@ -40,12 +55,6 @@ export default defineNuxtModule({
 						})
 					}
 				}
-
-				pages.unshift({
-					name: 'stonecrop-home',
-					path: '/',
-					file: homeLayoutPath,
-				})
 			})
 		}
 
