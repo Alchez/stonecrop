@@ -2,6 +2,18 @@
   "name": "@stonecrop/stonecrop",
   "entries": [
     {
+      "version": "0.3.6",
+      "tag": "@stonecrop/stonecrop_v0.3.6",
+      "date": "Fri, 27 Dec 2024 09:24:01 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix stonecrop documentation generation"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.3.5",
       "tag": "@stonecrop/stonecrop_v0.3.5",
       "date": "Tue, 24 Dec 2024 11:42:53 GMT",

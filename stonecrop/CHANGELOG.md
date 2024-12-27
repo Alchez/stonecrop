@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/stonecrop
 
-This log was last generated on Tue, 24 Dec 2024 11:42:53 GMT and should not be manually modified.
+This log was last generated on Fri, 27 Dec 2024 09:24:01 GMT and should not be manually modified.
+
+## 0.3.6
+Fri, 27 Dec 2024 09:24:01 GMT
+
+### Patches
+
+- fix stonecrop documentation generation
 
 ## 0.3.5
 Tue, 24 Dec 2024 11:42:53 GMT
