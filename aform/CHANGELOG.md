@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/aform
 
-This log was last generated on Wed, 15 Jan 2025 14:30:10 GMT and should not be manually modified.
+This log was last generated on Mon, 20 Jan 2025 07:32:03 GMT and should not be manually modified.
+
+## 0.3.11
+Mon, 20 Jan 2025 07:32:03 GMT
+
+### Updates
+
+- allow external clicks, fix on result selection and clear search when necesary"
 
 ## 0.3.10
 Wed, 15 Jan 2025 14:30:10 GMT
