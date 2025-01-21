@@ -1,6 +1,6 @@
 {
 	"name": "@stonecrop/nuxt",
-	"version": "0.2.61",
+	"version": "0.5.0",
 	"description": "Nuxt module for Stonecrop",
 	"license": "MIT",
 	"type": "module",
@@ -53,7 +53,7 @@
 		"nitropack": "*",
 		"nuxi": "^3.13.1",
 		"nuxt": "^3.14.1592",
-		"typescript": "^5.5.2",
+		"typescript": "^5.6.3",
 		"vue": "^3.5.11",
 		"vite": "^5.4.5",
 		"vitest": "^2.1.1",
