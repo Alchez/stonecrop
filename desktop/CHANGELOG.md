@@ -1,6 +1,11 @@
 # Change Log - @stonecrop/desktop
 
-This log was last generated on Tue, 21 Jan 2025 10:56:53 GMT and should not be manually modified.
+This log was last generated on Thu, 23 Jan 2025 10:02:28 GMT and should not be manually modified.
+
+## 0.4.1
+Thu, 23 Jan 2025 10:02:28 GMT
+
+_Version update only_
 
 ## 0.4.0
 Tue, 21 Jan 2025 10:56:53 GMT
