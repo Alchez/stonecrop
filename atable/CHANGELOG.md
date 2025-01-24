@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/atable
 
-This log was last generated on Thu, 23 Jan 2025 20:24:26 GMT and should not be manually modified.
+This log was last generated on Fri, 24 Jan 2025 05:56:48 GMT and should not be manually modified.
+
+## 0.4.3
+Fri, 24 Jan 2025 05:56:48 GMT
+
+### Patches
+
+- added atable loading component
 
 ## 0.4.2
 Thu, 23 Jan 2025 20:24:26 GMT
