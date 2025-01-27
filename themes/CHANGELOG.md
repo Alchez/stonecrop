@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/themes
 
-This log was last generated on Fri, 24 Jan 2025 05:56:48 GMT and should not be manually modified.
+This log was last generated on Mon, 27 Jan 2025 16:00:06 GMT and should not be manually modified.
+
+## 0.4.4
+Mon, 27 Jan 2025 16:00:06 GMT
+
+### Updates
+
+- added cell change color variable
 
 ## 0.4.3
 Fri, 24 Jan 2025 05:56:48 GMT
