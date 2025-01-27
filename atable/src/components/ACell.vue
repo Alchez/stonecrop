@@ -13,7 +13,7 @@
 		@input="updateCellData"
 		@click="showModal"
 		class="atable-cell"
-		:class="pinned ? 'sticky-column' : ''">
+		:class="cellClasses">
 		<component
 			v-if="column.cellComponent"
 			:is="column.cellComponent"
@@ -38,6 +38,7 @@ const {
 	store,
 	addNavigation = true,
 	tabIndex = 0,
+	pinned = false,
 } = defineProps<{
 	colIndex: number
 	rowIndex: number
@@ -72,9 +73,15 @@ const cellStyle = computed((): CSSProperties => {
 	return {
 		textAlign,
 		width: cellWidth,
-		backgroundColor: !cellModified.value ? 'inherit' : 'var(--sc-cell-changed-color)',
 		fontWeight: !cellModified.value ? 'inherit' : 'bold',
 		paddingLeft: store.getIndent(colIndex, store.display[rowIndex]?.indent),
+	}
+})
+
+const cellClasses = computed(() => {
+	return {
+		'sticky-column': pinned,
+		'cell-modified': cellModified.value,
 	}
 })
 
@@ -210,5 +217,12 @@ const updateCellData = (payload: Event) => {
 	overflow: hidden;
 	text-wrap: nowrap;
 	box-sizing: border-box;
+}
+.cell-modified {
+	font-weight: bold;
+	font-style: italic;
+}
+.cell-modified-highlight {
+	background-color: var(--sc-cell-changed-color);
 }
 </style>
