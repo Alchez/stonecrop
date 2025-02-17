@@ -1,6 +1,13 @@
 # Change Log - @stonecrop/atable
 
-This log was last generated on Sat, 08 Feb 2025 20:45:28 GMT and should not be manually modified.
+This log was last generated on Mon, 17 Feb 2025 14:07:39 GMT and should not be manually modified.
+
+## 0.4.6
+Mon, 17 Feb 2025 14:07:39 GMT
+
+### Patches
+
+- amodal uses cell and row sizes to calculate position
 
 ## 0.4.5
 Sat, 08 Feb 2025 20:45:28 GMT

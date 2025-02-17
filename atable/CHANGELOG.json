@@ -2,6 +2,18 @@
   "name": "@stonecrop/atable",
   "entries": [
     {
+      "version": "0.4.6",
+      "tag": "@stonecrop/atable_v0.4.6",
+      "date": "Mon, 17 Feb 2025 14:07:39 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "amodal uses cell and row sizes to calculate position"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.4.5",
       "tag": "@stonecrop/atable_v0.4.5",
       "date": "Sat, 08 Feb 2025 20:45:28 GMT",
