@@ -98,11 +98,12 @@ const showModal = () => {
 			state.modal.visible = true
 			state.modal.colIndex = colIndex
 			state.modal.rowIndex = rowIndex
-			// TODO: typing refs somehow resolves to unref'd value; probably a bug in API Extractor?
+			// TODO: typing refs somehow resolves to unref'd value; probably a bug in TS?
 			state.modal.left = left
 			state.modal.bottom = bottom
 			state.modal.width = width
 			state.modal.height = height
+			state.modal.cell = cellRef.value
 
 			if (typeof column.modalComponent === 'function') {
 				state.modal.component = column.modalComponent({ table: state.table, row, column })
@@ -201,6 +202,7 @@ const updateCellData = (payload: Event) => {
 	order: 1;
 	white-space: nowrap;
 	max-width: 40ch;
+	border-top: 1px solid var(--sc-row-border-color);
 }
 .atable-cell a {
 	color: var(--sc-cell-text-color);
